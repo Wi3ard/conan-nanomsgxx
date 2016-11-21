@@ -14,7 +14,7 @@ int main()
 		s1.bind(addr);
 		s2.connect(addr);
 
-		s1.send("Hello World!");
+		s1.send("Test passed!");
 
 		nnxx::message msg = s2.recv();
 		std::cout << msg << std::endl;
